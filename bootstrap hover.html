@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap" rel="stylesheet">
+    <style>
+        body {
+  font-family: 'Oswald', sans-serif;
+  color: #3a3a3a;
+  background-color: #F2F3D7;
+}
+
+.container-fluid {
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.row {
+  margin-top: 2.5%;
+}
+
+.box {
+  max-width: 400px;
+  max-height: 300px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: blue;
+}
+
+.box3 {
+  background-color: green;
+}
+
+.box4 {
+  background-color: purple;
+}
+
+.box5 {
+  background-color: yellow;
+}
+
+.box6 {
+  background-color: orange;
+}
+
+img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  opacity: 0.75;
+  overflow: hidden;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition-timing-function: ease-in;
+  transition: 1.5s;
+}
+
+img:hover {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -moz-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition-timing-function: ease-in;
+  transition: 1.5s;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid" >
+    
+        <div class="row row1">
+          <div class="col-md-4 col-xs-4 col-sm-4">
+            <div class="box box1">
+              <img src="https://unsplash.it/400/300?image=837">
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-4 col-sm-4">
+            <div class="box box2">
+              <img src="https://unsplash.it/400/300?image=670">
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-4 col-sm-4">
+            <div class="box box3">
+              <img src="https://unsplash.it/400/300?image=839">
+            </div>
+          </div>
+          
+        <div class="row row2">
+          <div class="col-md-4 col-xs-4 col-sm-4">
+            <div class="box box4">
+              <img src="https://unsplash.it/400/300?image=526">
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-4 col-sm-4">
+            <div class="box box5">
+              <img src="https://unsplash.it/400/300?image=486">
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-4 col-sm-4">
+            <div class="box box6">
+              <img src="https://unsplash.it/400/300?image=514">
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
